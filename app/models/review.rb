@@ -1,3 +1,4 @@
 class Review < ActiveRecord::Base
-  belons_to :user
+  belongs_to :user
+  belongs_to :movie
 end
